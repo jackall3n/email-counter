@@ -5,6 +5,10 @@ const fs = require('fs');
 const counter = require('./counter');
 
 
+app.get('/test', (req, res) => {
+    res.send('ello')
+});
+
 app.get('/:date', (req, res) => {
 
     counter(req.params.date, () => {
