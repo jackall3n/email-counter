@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "canvas": "^2.2.0",
-    "gifencoder": "^1.1.0"
+    "express": "^4.16.4",
+    "gifencoder": "^1.1.0",
+    "moment": "^2.23.0",
+    "png-file-stream": "^1.1.0"
   }
 }
